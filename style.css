@@ -618,6 +618,7 @@ footer h3 {
      grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 250px;
     align-items: stretch;
+    
 }
 
 .product-card {
