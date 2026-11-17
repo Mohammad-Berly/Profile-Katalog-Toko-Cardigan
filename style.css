@@ -627,8 +627,7 @@ footer h3 {
     flex-direction: column;
     min-width: o;
     overflow: hidden;
-    background: var(--white);
-    border: auto solid var(--border);
+    border: var(--border);
     border-radius: 50px;
     box-shadow: 0 8px 25px rgba(201, 111, 145, 0.10);
     transition: transform 0.25s ease, box-shadow 0.25s ease;
