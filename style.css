@@ -627,8 +627,8 @@ footer h3 {
     flex-direction: column;
     min-width: o;
     overflow: hidden;
-    border: var(--border);
-    border-radius: 50px;
+    border-radius: 20px;
+    background: var(--white);
     box-shadow: 0 8px 25px rgba(201, 111, 145, 0.10);
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
@@ -642,8 +642,9 @@ footer h3 {
 .product-card .product-image {
     display: block;
     width: 100%;
-    height: 271px;
+    height: 100%;
     object-fit: contain;
+    border-radius: 30px;
 }
 
 .product-card .product-info {
@@ -760,15 +761,20 @@ footer h3 {
 /* =====================================
    RESPONSIVE HP
 ===================================== */
-@media (max-width: 600px) {
+@media (max-width: 576px) {
     .product-container {
-        grid-template-columns: 1fr;
-        gap: 22px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+        padding: 10px;
+    }
+
+    .product-card {
+        border-radius: 15px;
     }
 
     .product-card img,
     .product-card .product-image {
-        height: 300px;
+        height: 180px;
     }
 
     .more-btn {
