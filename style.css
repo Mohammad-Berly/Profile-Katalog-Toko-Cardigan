@@ -13,6 +13,7 @@
 }
 
 
+
 * {
     margin: 0;
     padding: 0;
@@ -22,6 +23,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -52,7 +54,6 @@ body {
 
     box-shadow: 0 2px 15px rgba(232, 142, 173, 0.15);
 }
-
 
 .logo {
     display: flex;
@@ -628,7 +629,7 @@ footer h3 {
     overflow: hidden;
     background: var(--white);
     border: auto solid var(--border);
-    border-radius: 20px;
+    border-radius: 50px;
     box-shadow: 0 8px 25px rgba(201, 111, 145, 0.10);
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
