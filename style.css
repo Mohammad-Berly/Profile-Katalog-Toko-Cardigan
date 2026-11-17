@@ -9,7 +9,7 @@
     --text-soft: #766A6F;
 
     --border: #F1D5DF;
-    --ocean : #5F9EA0;
+    --ocean: #5F9EA0;
 }
 
 
@@ -130,8 +130,8 @@ body {
 
     padding: 40px 20px;
 
-    background: 
-        linear-gradient( rgba(226, 18, 91, 0.58),
+    background:
+        linear-gradient(rgba(226, 18, 91, 0.58),
             rgba(255, 157, 198, 0.72));
 
     background-position: center;
@@ -448,7 +448,7 @@ footer h3 {
     }
 
 
-    
+
     .navbar nav {
         display: none;
 
@@ -561,7 +561,7 @@ footer h3 {
     margin: 15px 0;
 }
 
-.location-info > p {
+.location-info>p {
     color: #666;
     line-height: 1.7;
     margin-bottom: 30px;
@@ -598,7 +598,7 @@ footer h3 {
 .map-container {
     overflow: hidden;
     border-radius: 15px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
 
 .map-container iframe {
@@ -615,10 +615,10 @@ footer h3 {
     max-width: 1200px;
     margin: o auto;
     display: grid;
-     grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 250px;
     align-items: stretch;
-    
+
 }
 
 .product-card {
